@@ -18,5 +18,5 @@ def top_bottle():
     top_bottle = fetch_top_water_bottle()
     return jsonify(top_bottle)
 
-if 'waterbottlewatch' == '__main__':
+if  __name__ == '__main__':
     app.run(debug=True)
