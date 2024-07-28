@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, render_template
 import requests
 
-app = Flask(waterbottlewatch)
+app = Flask('waterbottlewatch')
 
 def fetch_top_water_bottle():
     # Example of fetching data from a hypothetical API
